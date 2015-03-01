@@ -20,7 +20,6 @@ public class TestApplication
 	public int sum;
 	
 	@Test
-<<<<<<< HEAD
 	public void TESTCASE_A()
 	{
 		System.out.println("TESTCASE A : Sum x 1 is " + sum *1);
@@ -36,25 +35,7 @@ public class TestApplication
 	public void TESTCASE_C()
 	{
 		System.out.println("TESTCASE C : Sum x 3 is " + sum *3);
-=======
-	public void TESTCASE1()
-	{
-		System.out.println("TESTCASE 1 : Sum x 1 is " + sum *1);
 	}
-	
-	@Test
-	public void TESTCASE2()
-	{
-		System.out.println("TESTCASE 2 : Sum x 2  is " + sum *2);
-	}
-	
-	@Test
-	public void TESTCASE3()
-	{
-		System.out.println("TESTCASE 3 : Sum x 3 is " + sum *3);
->>>>>>> f90acc9523564c6acc488d2c4b1910443e16b67d
-	}
-	
 	
 	public TestApplication(int a, int b)
 	{
